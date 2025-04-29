@@ -1,105 +1,105 @@
 # Lists
 
-# my_lists = [1,2,3,4,5]
-# empty_list = []
-# mixed_list = [1,"hello",3.14,True]
-# nested_list = [1,[2,3],4]
-# student_name = ["alex","bob","charlie"]
+my_lists = [1,2,3,4,5]
+empty_list = []
+mixed_list = [1,"hello",3.14,True]
+nested_list = [1,[2,3],4]
+student_name = ["alex","bob","charlie"]
 
-# #Opeartions
-# # 1.Accessing Elements
-# first_item = my_lists[0]
-# last_item = my_lists[-1]
-# print(last_item)
+#Opeartions
+# 1.Accessing Elements
+first_item = my_lists[0]
+last_item = my_lists[-1]
+print(last_item)
 
-# #slicing 
+#slicing 
 
-# sub_list = my_lists[1:4]
+sub_list = my_lists[1:4]
 
-# #Adding elements
+#Adding elements
 
-# my_lists.append(6)
-# my_lists.insert(0,0)
-# my_lists.insert(3,-3)
-# print(my_lists)
+my_lists.append(6)
+my_lists.insert(0,0)
+my_lists.insert(3,-3)
+print(my_lists)
 
-# my_lists[4] = 100
-# print(my_lists)
-
-
-# #Removing elements
-# my_lists.remove(100)
-# # my_lists.remove(9) #throws exception
-# print(my_lists)
-# my_lists.pop()
-# my_lists.pop()
-# print(my_lists)
-# removed_value = my_lists.pop(3)
-# print(my_lists)
-# print(removed_value)
-
-# #finding elements 
-
-# index = my_lists.index(4)
-# print(index)
-# my_lists.append(2)
-# print(my_lists)
-# print(my_lists.count(4))
-
-# # List Operations
-# length = len(my_lists)
-# my_lists.append(3)
-# print(my_lists)
-# my_lists.sort()
-# print(my_lists)
-# my_lists.reverse()
-# print(my_lists)
-
-# other_list = [7,8,9]
-# my_lists.extend(other_list)
-# # my_lists = my_lists + other_list
-# print(my_lists)
+my_lists[4] = 100
+print(my_lists)
 
 
-# ##tuple 
+#Removing elements
+my_lists.remove(100)
+# my_lists.remove(9) #throws exception
+print(my_lists)
+my_lists.pop()
+my_lists.pop()
+print(my_lists)
+removed_value = my_lists.pop(3)
+print(my_lists)
+print(removed_value)
 
-# my_tuple = (1,2,3,3,4,5)
-# print(my_tuple)
-# empty_tuple = ()
-# single_item_tuple =  (1,) #tuple([1])
-# print(single_item_tuple)
-# a = [1,2,3,4,5]
+#finding elements 
 
-# tuple_from_list = tuple(a) # tuple([1,2,3,4,5])
-# print(tuple_from_list)
+index = my_lists.index(4)
+print(index)
+my_lists.append(2)
+print(my_lists)
+print(my_lists.count(4))
 
-# #key operations
+# List Operations
+length = len(my_lists)
+my_lists.append(3)
+print(my_lists)
+my_lists.sort()
+print(my_lists)
+my_lists.reverse()
+print(my_lists)
 
-# #Access elements (zero-indexed)
+other_list = [7,8,9]
+my_lists.extend(other_list)
+# my_lists = my_lists + other_list
+print(my_lists)
 
-# first_item = my_tuple[0]
-# last_item = my_tuple[-1]
 
-# #Slicing
-# sub_tuple = my_tuple[1:4]
+##tuple 
 
-# #find elements
-# print(my_tuple)
-# index = my_tuple.index(3) #returns index of first-occurence value
-# print(index)
-# count = my_tuple.count(3)
+my_tuple = (1,2,3,3,4,5)
+print(my_tuple)
+empty_tuple = ()
+single_item_tuple =  (1,) #tuple([1])
+print(single_item_tuple)
+a = [1,2,3,4,5]
 
-# #operations
-# length = len(my_tuple)
-# combined = my_tuple + (6,7,8) # tuple concatenation
-# print(combined)
+tuple_from_list = tuple(a) # tuple([1,2,3,4,5])
+print(tuple_from_list)
 
-# #modify and recreate
-# tuple_list = list(my_tuple)
-# print(tuple_list)
-# tuple_list[3] = 100
-# my_tuple = tuple(tuple_list)
-# print(my_tuple)
+#key operations
+
+#Access elements (zero-indexed)
+
+first_item = my_tuple[0]
+last_item = my_tuple[-1]
+
+#Slicing
+sub_tuple = my_tuple[1:4]
+
+#find elements
+print(my_tuple)
+index = my_tuple.index(3) #returns index of first-occurence value
+print(index)
+count = my_tuple.count(3)
+
+#operations
+length = len(my_tuple)
+combined = my_tuple + (6,7,8) # tuple concatenation
+print(combined)
+
+#modify and recreate
+tuple_list = list(my_tuple)
+print(tuple_list)
+tuple_list[3] = 100
+my_tuple = tuple(tuple_list)
+print(my_tuple)
 
 ##Sets
 
