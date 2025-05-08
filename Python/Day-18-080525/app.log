@@ -1,0 +1,9 @@
+2025-05-08 23:45:22,653 - 20788 -  INFO - Processing started
+2025-05-08 23:45:22,654 - 20788 -  WARNING - Resource running low
+2025-05-08 23:45:22,654 - 20788 -  ERROR - Error occures
+2025-05-08 23:45:22,655 - 20788 -  CRITICAL - Critical failure
+2025-05-08 23:46:02,440 - 21068 -  DEBUG - Debug message
+2025-05-08 23:46:02,442 - 21068 -  INFO - Processing started
+2025-05-08 23:46:02,442 - 21068 -  WARNING - Resource running low
+2025-05-08 23:46:02,443 - 21068 -  ERROR - Error occures
+2025-05-08 23:46:02,450 - 21068 -  CRITICAL - Critical failure
